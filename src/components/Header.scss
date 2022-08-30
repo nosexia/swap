@@ -1,0 +1,43 @@
+body {
+  background-color: #060606;
+}
+.wrapperOuter {
+  width: 1160px;
+  margin: 48px auto 0;
+  display: flex;
+  justify-content: space-between;
+  .wrapperInner {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    color: #515151;
+    line-height: 16px;
+    width: 419px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.active {
+  color: #fff;
+}
+
+.logo {
+  width: 58px;
+}
+
+.wrapper-inner-right {
+  width: 436px;
+  display: flex;
+  justify-content: space-between;
+  .link-list {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    .image-brid,
+    .image-wawa,
+    .image-github {
+      width: 20px;
+    }
+  }
+}
