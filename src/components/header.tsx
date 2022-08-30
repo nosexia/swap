@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-// import "./Header.css";
 import "./Header.scss";
 const logoSrc = require("../assets/image/logo.png");
 const birdSrc = require("../assets/image/brid.png");
@@ -30,7 +29,8 @@ const Header: FC = () => {
         </div>
 
         <div className="wrapper-tool-list">
-          {/* <input type="button" value=""> */}
+          <input type="button" value="Buy $721" className="wrapper-tool1" />
+          <input type="button" value="Connect Wallet" className="wrapper-tool2" />
         </div>
       </div>
     </div>
