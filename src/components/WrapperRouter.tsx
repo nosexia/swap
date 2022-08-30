@@ -1,10 +1,12 @@
-import React from 'react'
-import Header from './header.tsx'
-const WrapperRouter = ({element}) => {
-    return (<div>
-            <Header/>
-            {element()}
-        </div>)
-}
+import React from "react";
+import Header from "./Header.tsx";
+const WrapperRouter = ({ element }) => {
+  return (
+    <div>
+      <Header />
+      {element()}
+    </div>
+  );
+};
 
-export default WrapperRouter
+export default WrapperRouter;
